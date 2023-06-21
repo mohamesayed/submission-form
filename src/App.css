@@ -1,0 +1,106 @@
+/* Start Global Rules */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --orange-digital: #ff7900;
+  --back-ground: #141316;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* End Global Rules */
+
+.personal-info {
+  position: relative;
+  left: 20px;
+}
+
+.personal-info input {
+  position: relative;
+  padding-left: 40px !important;
+}
+
+.personal-info input::placeholder {
+  position: absolute;
+  margin-left: 40px;
+}
+
+.personal-info .user {
+  position: absolute;
+  bottom: 17%;
+  font-size: 10px;
+  left: 10px;
+}
+
+.location {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.dates {
+  margin-left: 40px;
+}
+
+.dates .container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.dates .container .date {
+  margin-right: 50px;
+}
+
+.info .container .name {
+  display: flex;
+}
+
+.info .container .name .second {
+  margin-left: 100px;
+}
+
+.country-governate .container {
+  display: flex;
+}
+
+/* .country-governate {
+  margin-left: 40px;
+} */
+
+.country-governate .container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.country-governate .container .country {
+  margin-right: 300px;
+}
